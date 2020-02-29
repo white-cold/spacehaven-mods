@@ -1,0 +1,289 @@
+<data>
+	<Element>
+		<me _name="Hull Stabilizer" alternateY="false" costGroup="874" ec="27" mid="2257" nonSymmetrical="false" offsetRot="R0">
+			<data />
+			<linked>
+				<l damageGroup="0" eid="6" gridOffX="1" gridOffY="1" id="2259" layer="0" rot="R0" />
+				<l damageGroup="0" eid="7" gridOffX="1" gridOffY="0" id="2262" layer="0" rot="R0" />
+				<l damageGroup="0" eid="9" gridOffX="1" gridOffY="2" id="2261" layer="0" rot="R180" />
+				<l damageGroup="0" eid="10" gridOffX="0" gridOffY="1" id="2261" layer="0" rot="R90" />
+				<l damageGroup="0" eid="15" gridOffX="2" gridOffY="1" id="2261" layer="0" rot="R270" />
+				<l damageGroup="0" eid="21" gridOffX="0" gridOffY="0" id="2264" layer="0" rot="R90" />
+				<l damageGroup="0" eid="22" gridOffX="0" gridOffY="2" id="2264" layer="0" rot="R180" />
+				<l damageGroup="0" eid="23" gridOffX="2" gridOffY="2" id="2264" layer="0" rot="R270" />
+				<l damageGroup="0" eid="24" gridOffX="2" gridOffY="0" id="2264" layer="0" rot="R0" />
+				<l damageGroup="0" eid="25" gridOffX="0" gridOffY="1" id="2265" layer="0" rot="R180" />
+				<l damageGroup="0" eid="26" gridOffX="1" gridOffY="2" id="2265" layer="0" rot="R270" />
+				<l damageGroup="0" eid="27" gridOffX="2" gridOffY="1" id="2265" layer="0" rot="R0" />
+			</linked>
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="6" systemPoints="1" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="40" rep="875">
+							<customPrice>
+								<l elementId="162" howMuch="4" />
+								<l elementId="930" howMuch="2" />
+								<l elementId="1919" howMuch="2" />
+							</customPrice>
+						</l>
+						<l buildTools="0" rep="872">
+							<customPrice />
+						</l>
+						<l buildTools="0" rep="874">
+							<customPrice />
+						</l>
+					</groups>
+				</cu>
+				<name tid="2289" />
+				<desc tid="2290" />
+				<guiIcon aid="build_icon_2257" />
+				<subCat id="1519" />
+				<restrictions>
+					<l gridX="1" gridY="-1" sizeX="1" sizeY="1" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="1" skill="Construction" />
+			</objectInfo>
+		</me>
+		<me _name="Shield Generator" alternateY="false" costGroup="0" ec="40" mid="470" nonSymmetrical="false" offsetRot="R0">
+			<data />
+			<linked>
+				<l damageGroup="0" eid="1" gridOffX="1" gridOffY="1" id="2289" layer="0" rot="R0" />
+				<l damageGroup="0" eid="2" gridOffX="1" gridOffY="1" id="469" layer="0" rot="R90">
+					<rep>
+						<r target="0:Standby:0" with="470:21:4" />
+					</rep>
+				</l>
+				<l damageGroup="0" eid="22" gridOffX="0" gridOffY="2" id="2275" layer="0" rot="R90" />
+				<l damageGroup="0" eid="24" gridOffX="0" gridOffY="1" id="2287" layer="0" rot="R90" />
+				<l damageGroup="0" eid="25" gridOffX="1" gridOffY="2" id="2290" layer="0" rot="R180" />
+				<l damageGroup="0" eid="26" gridOffX="2" gridOffY="1" id="2287" layer="0" rot="R270" />
+				<l damageGroup="0" eid="35" gridOffX="0" gridOffY="0" id="2286" layer="0" rot="R0" />
+				<l damageGroup="0" eid="36" gridOffX="0" gridOffY="2" id="2291" layer="0" rot="R0" />
+				<l damageGroup="0" eid="37" gridOffX="2" gridOffY="2" id="2286" layer="0" rot="R180" />
+				<l damageGroup="0" eid="38" gridOffX="2" gridOffY="0" id="2291" layer="0" rot="R180" />
+				<l damageGroup="0" eid="39" gridOffX="1" gridOffY="0" id="2285" layer="0" rot="R0" />
+			</linked>
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="1" systemPoints="1" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="50" rep="874">
+							<customPrice>
+								<l elementId="162" howMuch="3" />
+								<l elementId="930" howMuch="3" />
+								<l elementId="1919" howMuch="5" />
+								<l elementId="1759" howMuch="1" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="2182" />
+				<desc tid="2183" />
+				<guiIcon aid="build_icon_470" />
+				<subCat id="1520" />
+				<restrictions>
+					<l gridX="1" gridY="-1" sizeX="1" sizeY="1" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="1" skill="Construction" />
+			</objectInfo>
+		</me>
+		<me _name="Scanner" alternateY="false" costGroup="0" ec="38" mid="2239" nonSymmetrical="false" offsetRot="R0">
+			<data />
+			<linked>
+				<l damageGroup="0" eid="1" gridOffX="1" gridOffY="1" id="2256" layer="0" rot="R0" />
+				<l damageGroup="0" eid="2" gridOffX="1" gridOffY="1" id="2254" layer="0" rot="R0">
+					<rep>
+						<r target="0:Standby:0" with="470:21:4" />
+					</rep>
+				</l>
+				<l damageGroup="0" eid="22" gridOffX="0" gridOffY="0" id="2266" layer="0" rot="R0" />
+				<l damageGroup="0" eid="23" gridOffX="1" gridOffY="0" id="2255" layer="0" rot="R0" />
+				<l damageGroup="0" eid="24" gridOffX="0" gridOffY="1" id="2255" layer="0" rot="R90" />
+				<l damageGroup="0" eid="25" gridOffX="1" gridOffY="2" id="2255" layer="0" rot="R180" />
+				<l damageGroup="0" eid="26" gridOffX="2" gridOffY="1" id="2255" layer="0" rot="R270" />
+				<l damageGroup="0" eid="35" gridOffX="0" gridOffY="0" id="2170" layer="0" rot="R0" />
+				<l damageGroup="0" eid="36" gridOffX="0" gridOffY="2" id="2170" layer="0" rot="R90" />
+				<l damageGroup="0" eid="37" gridOffX="2" gridOffY="2" id="2170" layer="0" rot="R180" />
+				<l damageGroup="0" eid="38" gridOffX="2" gridOffY="0" id="2170" layer="0" rot="R270" />
+			</linked>
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="3" systemPoints="1" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="50" rep="874">
+							<customPrice>
+								<l elementId="162" howMuch="3" />
+								<l elementId="930" howMuch="3" />
+								<l elementId="1919" howMuch="2" />
+								<l elementId="1759" howMuch="1" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="2276" />
+				<desc tid="2277" />
+				<guiIcon aid="build_icon_2239" />
+				<subCat id="1520" />
+				<restrictions />
+				<difficultyLevel level="1" skill="Construction" />
+			</objectInfo>
+		</me>
+		<me _name="Energy Turret" alternateY="false" costGroup="874" ec="24" mid="2242" nonSymmetrical="false" offsetRot="R0">
+			<data />
+			<linked>
+				<l damageGroup="0" eid="6" gridOffX="1" gridOffY="1" id="2155" layer="0" rot="R0" />
+				<l damageGroup="0" eid="7" gridOffX="1" gridOffY="0" id="2164" layer="0" rot="R0" />
+				<l damageGroup="0" eid="9" gridOffX="1" gridOffY="2" id="2156" layer="0" rot="R180" />
+				<l damageGroup="0" eid="10" gridOffX="0" gridOffY="1" id="2156" layer="0" rot="R90" />
+				<l damageGroup="0" eid="12" gridOffX="1" gridOffY="1" id="2271" layer="0" rot="R0">
+					<rep>
+						<r target="0:Standby:0" with="382:13:4" />
+					</rep>
+				</l>
+				<l damageGroup="0" eid="15" gridOffX="2" gridOffY="1" id="2156" layer="0" rot="R270" />
+				<l damageGroup="0" eid="16" gridOffX="0" gridOffY="0" id="2105" layer="0" rot="R0" />
+				<l damageGroup="0" eid="21" gridOffX="0" gridOffY="0" id="2170" layer="0" rot="R0" />
+				<l damageGroup="0" eid="22" gridOffX="0" gridOffY="2" id="2170" layer="0" rot="R90" />
+				<l damageGroup="0" eid="23" gridOffX="2" gridOffY="2" id="2170" layer="0" rot="R180" />
+				<l damageGroup="0" eid="24" gridOffX="2" gridOffY="0" id="2170" layer="0" rot="R270" />
+			</linked>
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="4" systemPoints="1" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="50" rep="874">
+							<customPrice>
+								<l elementId="162" howMuch="3" />
+								<l elementId="930" howMuch="3" />
+								<l elementId="1919" howMuch="5" />
+								<l elementId="1759" howMuch="1" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="2307" />
+				<desc tid="2308" />
+				<guiIcon aid="build_icon_2242" />
+				<subCat id="1520" />
+				<restrictions>
+					<l gridX="1" gridY="-1" sizeX="1" sizeY="1" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="1" skill="Construction" />
+			</objectInfo>
+		</me>
+		<me _name="Shuttle Hangar" alternateY="false" costGroup="0" ec="124" mid="761" nonSymmetrical="false" offsetRot="R0">
+			<data />
+			<linked>
+				<l damageGroup="0" eid="45" gridOffX="1" gridOffY="1" id="762" layer="0" rot="R180" />
+				<l damageGroup="0" eid="50" gridOffX="0" gridOffY="1" id="773" layer="0" rot="R0" />
+				<l damageGroup="0" eid="52" gridOffX="2" gridOffY="1" id="762" layer="0" rot="R180" />
+				<l damageGroup="0" eid="53" gridOffX="3" gridOffY="1" id="772" layer="0" rot="R180" />
+				<l damageGroup="0" eid="54" gridOffX="4" gridOffY="1" id="773" layer="0" rot="R270" />
+				<l damageGroup="0" eid="55" gridOffX="4" gridOffY="2" id="762" layer="0" rot="R90" />
+				<l damageGroup="0" eid="56" gridOffX="4" gridOffY="3" id="762" layer="0" rot="R90" />
+				<l damageGroup="0" eid="57" gridOffX="0" gridOffY="2" id="762" layer="0" rot="R270" />
+				<l damageGroup="0" eid="58" gridOffX="0" gridOffY="4" id="773" layer="0" rot="R90" />
+				<l damageGroup="0" eid="59" gridOffX="4" gridOffY="4" id="773" layer="0" rot="R180" />
+				<l damageGroup="0" eid="60" gridOffX="0" gridOffY="3" id="762" layer="0" rot="R270" />
+				<l damageGroup="0" eid="61" gridOffX="1" gridOffY="4" id="762" layer="0" rot="R0" />
+				<l damageGroup="0" eid="62" gridOffX="2" gridOffY="4" id="762" layer="0" rot="R0" />
+				<l damageGroup="0" eid="63" gridOffX="3" gridOffY="4" id="762" layer="0" rot="R0" />
+				<l damageGroup="0" eid="72" gridOffX="4" gridOffY="1" id="856" layer="0" rot="R0" />
+				<l damageGroup="0" eid="73" gridOffX="1" gridOffY="2" id="770" layer="0" rot="R0" />
+				<l damageGroup="0" eid="74" gridOffX="2" gridOffY="2" id="764" layer="0" rot="R0" />
+				<l damageGroup="0" eid="75" gridOffX="3" gridOffY="2" id="771" layer="0" rot="R0" />
+				<l damageGroup="0" eid="76" gridOffX="1" gridOffY="3" id="769" layer="0" rot="R0" />
+				<l damageGroup="0" eid="77" gridOffX="2" gridOffY="3" id="764" layer="0" rot="R0" />
+				<l damageGroup="0" eid="78" gridOffX="3" gridOffY="3" id="768" layer="0" rot="R0" />
+				<l damageGroup="0" eid="101" gridOffX="0" gridOffY="1" id="1068" layer="0" rot="R90" />
+				<l damageGroup="0" eid="102" gridOffX="0" gridOffY="4" id="1068" layer="0" rot="R180" />
+				<l damageGroup="0" eid="103" gridOffX="4" gridOffY="4" id="1068" layer="0" rot="R270" />
+				<l damageGroup="0" eid="104" gridOffX="0" gridOffY="2" id="1067" layer="0" rot="R90" />
+				<l damageGroup="0" eid="105" gridOffX="0" gridOffY="3" id="1067" layer="0" rot="R90" />
+				<l damageGroup="0" eid="106" gridOffX="1" gridOffY="4" id="1067" layer="0" rot="R180" />
+				<l damageGroup="0" eid="107" gridOffX="2" gridOffY="4" id="1067" layer="0" rot="R180" />
+				<l damageGroup="0" eid="108" gridOffX="3" gridOffY="4" id="1067" layer="0" rot="R180" />
+				<l damageGroup="0" eid="109" gridOffX="4" gridOffY="3" id="1067" layer="0" rot="R270" />
+				<l damageGroup="0" eid="110" gridOffX="4" gridOffY="2" id="1070" layer="0" rot="R180" />
+				<l damageGroup="0" eid="111" gridOffX="2" gridOffY="1" id="1069" layer="0" rot="R270" />
+				<l damageGroup="0" eid="112" gridOffX="1" gridOffY="1" id="1067" layer="0" rot="R0" />
+				<l damageGroup="0" eid="117" gridOffX="4" gridOffY="0" id="1093" layer="0" rot="R0" />
+				<l damageGroup="0" eid="118" gridOffX="2" gridOffY="1" id="864" layer="0" rot="R180" />
+				<l damageGroup="0" eid="119" gridOffX="2" gridOffY="2" id="864" layer="0" rot="R270" />
+				<l damageGroup="0" eid="120" gridOffX="4" gridOffY="1" id="864" layer="0" rot="R0" />
+				<l damageGroup="0" eid="123" gridOffX="4" gridOffY="2" id="864" layer="0" rot="R270" />
+				<l damageGroup="0" eid="124" gridOffX="1" gridOffY="2" id="2086" layer="0" rot="R0" />
+			</linked>
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="4" systemPoints="1" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="60" rep="872">
+							<customPrice>
+								<l elementId="162" howMuch="2" />
+								<l elementId="930" howMuch="1" />
+								<l elementId="1759" howMuch="3" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="437" />
+				<desc tid="498" />
+				<guiIcon aid="build_icon_761" />
+				<subCat id="1521" />
+				<restrictions>
+					<l gridX="-1" gridY="0" sizeX="7" sizeY="6" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="4" skill="Construction" />
+			</objectInfo>
+		</me>
+		<me _name="Pod Hangar" alternateY="false" costGroup="0" ec="113" mid="782" nonSymmetrical="false" offsetRot="R0">
+			<data />
+			<linked>
+				<l damageGroup="0" eid="50" gridOffX="0" gridOffY="1" id="773" layer="0" rot="R0" />
+				<l damageGroup="0" eid="53" gridOffX="1" gridOffY="1" id="772" layer="0" rot="R180" />
+				<l damageGroup="0" eid="54" gridOffX="2" gridOffY="1" id="773" layer="0" rot="R270" />
+				<l damageGroup="0" eid="55" gridOffX="2" gridOffY="2" id="762" layer="0" rot="R90" />
+				<l damageGroup="0" eid="57" gridOffX="0" gridOffY="2" id="762" layer="0" rot="R270" />
+				<l damageGroup="0" eid="58" gridOffX="0" gridOffY="3" id="773" layer="0" rot="R90" />
+				<l damageGroup="0" eid="59" gridOffX="2" gridOffY="3" id="773" layer="0" rot="R180" />
+				<l damageGroup="0" eid="61" gridOffX="1" gridOffY="3" id="762" layer="0" rot="R0" />
+				<l damageGroup="0" eid="72" gridOffX="2" gridOffY="1" id="856" layer="0" rot="R0" />
+				<l damageGroup="0" eid="73" gridOffX="1" gridOffY="2" id="784" layer="0" rot="R0" />
+				<l damageGroup="0" eid="102" gridOffX="0" gridOffY="1" id="1068" layer="0" rot="R90" />
+				<l damageGroup="0" eid="103" gridOffX="0" gridOffY="3" id="1068" layer="0" rot="R180" />
+				<l damageGroup="0" eid="104" gridOffX="2" gridOffY="3" id="1068" layer="0" rot="R270" />
+				<l damageGroup="0" eid="105" gridOffX="0" gridOffY="2" id="1067" layer="0" rot="R90" />
+				<l damageGroup="0" eid="106" gridOffX="1" gridOffY="3" id="1067" layer="0" rot="R180" />
+				<l damageGroup="0" eid="107" gridOffX="2" gridOffY="2" id="1070" layer="0" rot="R180" />
+				<l damageGroup="0" eid="108" gridOffX="2" gridOffY="0" id="1093" layer="0" rot="R0" />
+				<l damageGroup="0" eid="111" gridOffX="1" gridOffY="2" id="864" layer="0" rot="R270" />
+				<l damageGroup="0" eid="112" gridOffX="0" gridOffY="1" id="864" layer="0" rot="R180" />
+				<l damageGroup="0" eid="113" gridOffX="2" gridOffY="1" id="864" layer="0" rot="R0" />
+			</linked>
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="3" systemPoints="1" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="40" rep="872">
+							<customPrice>
+								<l elementId="162" howMuch="2" />
+								<l elementId="930" howMuch="1" />
+								<l elementId="1759" howMuch="1" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="438" />
+				<desc tid="497" />
+				<guiIcon aid="build_icon_782" />
+				<subCat id="1521" />
+				<restrictions>
+					<l gridX="0" gridY="0" sizeX="3" sizeY="1" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="4" skill="Construction" />
+			</objectInfo>
+		</me>
+	</Element>
+</data>

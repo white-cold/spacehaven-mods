@@ -1,0 +1,19 @@
+<mod>
+    <name>Rebalanced System Points</name>
+    <description>
+Changes the System Point requirements
+	
+	- Shields reduced by 1 System Point
+	- Stabilizer reduced by 1 System Point
+	- Cannon reduced by 1 System Point
+	- Scanner reduced by 1 System Point
+	- Shuttle Hangar increased by 1 System Point
+	- Pod Hangar increased by 1 System Point
+	
+Author: Whitecold
+    </description>
+    <minimumLoaderVersion>0.0.1</minimumLoaderVersion>
+    <gameVersions>
+        <v>0.8.3</v>
+    </gameVersions>
+</mod>

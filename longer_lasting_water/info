@@ -1,0 +1,16 @@
+<mod>
+    <name>Longer Lasting Water</name>
+    <description>
+Makes your water last longer
+
+	- Halved Water usage of farms
+	- Tripled Water generation from ice
+	- Reduced usages needed of the toilet to generate water
+
+Author: Whitecold
+    </description>
+    <minimumLoaderVersion>0.0.1</minimumLoaderVersion>
+    <gameVersions>
+        <v>0.8.3</v>
+    </gameVersions>
+</mod>

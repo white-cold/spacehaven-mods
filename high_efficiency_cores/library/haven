@@ -1,0 +1,91 @@
+<data>
+	<Product>
+		<product _name="Energy rod to Power" eid="1883" interactive="false" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _name="Energy rod" consumeEvery="2500" element="174" howMuch="1" />
+			</needs>
+			<products>
+				<l _name="Power" element="34" howMuch="25" produceEvery="1" />
+			</products>
+			<desc />
+		</product>
+		<product _name="Energy rod to Power" eid="1884" interactive="false" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _name="Energy rod" consumeEvery="2500" element="174" howMuch="1" />
+			</needs>
+			<products>
+				<l _name="Power" element="34" howMuch="40" produceEvery="1" />
+			</products>
+			<desc />
+		</product>
+		<product _name="Energy rod to Power" eid="35" interactive="false" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _name="Energy rod" consumeEvery="2500" element="174" howMuch="1" />
+			</needs>
+			<products>
+				<l _name="Power" element="34" howMuch="15" produceEvery="1" />
+			</products>
+			<desc />
+		</product>
+		<product _name="Energium to Energy rod" eid="964" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _name="Energium" consumeEvery="5" element="158" howMuch="1" />
+			</needs>
+			<products>
+				<l _name="Energy rod" element="174" howMuch="2" produceEvery="1" />
+			</products>
+			<difficulty level="3" skill="Industry" />
+			<desc />
+		</product>
+		<product _name="Hyperium to Hyperfuel" eid="965" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _name="Hyperium" consumeEvery="1" element="172" howMuch="2" />
+			</needs>
+			<products>
+				<l _name="Hyperfuel" element="178" howMuch="2" produceEvery="1" />
+			</products>
+			<difficulty level="3" skill="Industry" />
+			<desc />
+		</product>
+	</Product>
+	<Element>
+		<me alternateY="false" costGroup="0" ec="1" mid="1646" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="1" gridOffX="0" gridOffY="0" layer="0" type="Object">
+					<element id="0" lightValue="Medium" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="false" state="Standby">
+								<r0 aid="hyperSleepHatch1F3" flx="false" />
+								<r90 aid="hyperSleepHatch1F1" flx="false" />
+								<r180 aid="hyperSleepHatch1B7" flx="false" />
+								<r270 aid="hyperSleepHatch1B9" flx="false" />
+								<r180off x="1" y="-1" />
+								<r270off x="0" y="0" />
+								<tasks>
+									<l dir="D7" gridOffX="0" gridOffY="-1" setStateInUse="false" task="StandWork" usage="Both">
+										<activate activateOffX="0" activateOffY="-1" />
+										<r0offset charOffX="0" charOffY="0" />
+										<r180offset charOffX="0" charOffY="0" />
+									</l>
+								</tasks>
+							</l>
+						</definedStates>
+						<features addFacilityIcons="false" inUseState="true" noPressureDmg="false" normalState="true" produceInNormal="false">
+							<cryoHub>
+								<cryoCharge consumeEvery="5" element="174" howMuch="1" />
+								<cryoCondition condition="1648" />
+							</cryoHub>
+						</features>
+						<boxHatch boxX="9" boxY="-2" flipR90="true" in="false" out="false" x="9" y="-2">
+							<activate activateOffX="0" activateOffY="-1" />
+							<r90Pos boxX="-17" boxY="4" x="-17" y="4" />
+						</boxHatch>
+						<commonPower />
+					</element>
+				</l>
+			</data>
+			<linked />
+			<events />
+		</me>
+	</Element>
+</data>

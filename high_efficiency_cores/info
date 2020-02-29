@@ -1,0 +1,17 @@
+<mod>
+    <name>High Efficiency Cores</name>
+    <description>
+Simple mod to allow more expansion by making your energy supply last longer
+
+	- Doubled energy rod generation
+	- Doubled hyperfuel generation
+	- Energy rods last 5 times longer in hypersleep chambers
+	- Reactors are 5x more energy efficient with rods
+	
+Author: Whitecold
+    </description>
+    <minimumLoaderVersion>0.0.1</minimumLoaderVersion>
+    <gameVersions>
+        <v>0.8.3</v>
+    </gameVersions>
+</mod>
